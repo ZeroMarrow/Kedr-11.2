@@ -21,7 +21,7 @@ namespace Kedr
         
         public new void Display()
         {
-            Console.WriteLine("Поезд: "+Number+" | Направление: "+Direction+" | Дата и время отправления: "+Date+" | Время до приезда: " +Timeres+ " минуты");
+            Console.WriteLine("Поезд: "+Number+" | Направление: "+Direction+" | Дата и время отправления: "+Date+" | Время до отправки: " +Timeres+ " минуты");
         }
     }
 }
